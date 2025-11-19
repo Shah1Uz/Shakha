@@ -1,0 +1,5 @@
+{
+  "name": "ImagineArt",
+  "description": "An AI-powered application to generate and edit images using text prompts. Leverage Gemini to bring your creative visions to life, from generating entirely new scenes to making intricate edits on existing photos.",
+  "requestFramePermissions": []
+}

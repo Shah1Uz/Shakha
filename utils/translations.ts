@@ -1,0 +1,215 @@
+
+export type Language = 'en' | 'ru' | 'uz';
+
+export const translations = {
+  en: {
+    app_name: "ImagineArt",
+    tab_generate: "Generate",
+    tab_edit: "Edit",
+    footer_text: "Powered by Shahzod Roziqulov",
+    
+    // Generator
+    gen_label_vision: "Describe your vision",
+    gen_placeholder: "e.g., A cinematic shot of a smiling astronaut on Mars, detailed, 8k",
+    gen_label_ratio: "Aspect Ratio",
+    gen_btn_generate: "Generate",
+    gen_error_prompt: "Please enter a prompt.",
+    gen_waiting: "Your generated image will appear here.",
+    gen_download_alt: "Download image",
+
+    // Editor
+    edit_drop_title: "Upload an image",
+    edit_drop_subtitle: "or drag & drop",
+    edit_drop_hint: "PNG, JPG, GIF up to 10MB",
+    edit_change_img: "Change Image",
+    edit_quick_title: "Quick Edits",
+    edit_custom_label: "Custom Prompt",
+    edit_custom_placeholder: "e.g., Add a retro filter",
+    edit_btn_edit: "Edit Image",
+    edit_error_upload: "Please upload an image and provide an editing prompt.",
+    edit_waiting: "Your edited image will appear here.",
+    edit_label_original: "Original",
+    edit_label_edited: "Edited",
+    
+    // Editor Tools
+    tool_text_overlay: "Text Overlay",
+    tool_text_label: "Text",
+    tool_text_placeholder: "Your text here",
+    tool_font_label: "Font",
+    tool_color_label: "Color",
+    tool_size_label: "Size",
+    tool_pos_label: "Position",
+    tool_btn_add_text: "Add Text",
+    tool_btn_save: "Save Image",
+    
+    // Quick Actions
+    qa_remove_bg: "Remove BG",
+    qa_upscale: "Upscale",
+    qa_color: "Color..",
+    
+    // Positions
+    pos_top_left: 'Top Left',
+    pos_top_center: 'Top',
+    pos_top_right: 'Top Right',
+    pos_middle_left: 'Left',
+    pos_middle_center: 'Center',
+    pos_middle_right: 'Right',
+    pos_bottom_left: 'Bottom Left',
+    pos_bottom_center: 'Bottom',
+    pos_bottom_right: 'Bottom Right',
+
+    // Loading Messages
+    loading_gen: [
+        "Brewing up pixels...",
+        "Sketching your masterpiece...",
+        "Consulting the digital muses...",
+        "Translating imagination to reality...",
+        "Painting with algorithms...",
+        "Firing up the creative circuits...",
+    ],
+    loading_edit: [
+        "Applying magical edits...",
+        "Polishing the details...",
+        "Working on the finishing touches...",
+        "Enhancing your vision...",
+        "A moment of creative transformation...",
+        "Giving your image a new look...",
+    ]
+  },
+  ru: {
+    app_name: "ImagineArt",
+    tab_generate: "Создать",
+    tab_edit: "Редактировать",
+    footer_text: "Разработано Шахзодом Розикуловым",
+    
+    gen_label_vision: "Опишите ваше видение",
+    gen_placeholder: "например, Кинематографичный снимок улыбающегося астронавта на Марсе, 8k",
+    gen_label_ratio: "Соотношение сторон",
+    gen_btn_generate: "Сгенерировать",
+    gen_error_prompt: "Пожалуйста, введите описание.",
+    gen_waiting: "Ваше изображение появится здесь.",
+    gen_download_alt: "Скачать изображение",
+
+    edit_drop_title: "Загрузите изображение",
+    edit_drop_subtitle: "или перетащите сюда",
+    edit_drop_hint: "PNG, JPG, GIF до 10МБ",
+    edit_change_img: "Изменить фото",
+    edit_quick_title: "Быстрые действия",
+    edit_custom_label: "Ваш запрос",
+    edit_custom_placeholder: "например, Добавить ретро фильтр",
+    edit_btn_edit: "Редактировать",
+    edit_error_upload: "Пожалуйста, загрузите фото и введите запрос.",
+    edit_waiting: "Ваше отредактированное фото появится здесь.",
+    edit_label_original: "Оригинал",
+    edit_label_edited: "Изменено",
+    
+    tool_text_overlay: "Наложение текста",
+    tool_text_label: "Текст",
+    tool_text_placeholder: "Ваш текст",
+    tool_font_label: "Шрифт",
+    tool_color_label: "Цвет",
+    tool_size_label: "Размер",
+    tool_pos_label: "Позиция",
+    tool_btn_add_text: "Добавить текст",
+    tool_btn_save: "Сохранить",
+
+    qa_remove_bg: "Удалить фон",
+    qa_upscale: "Улучшить",
+    qa_color: "Цвет..",
+
+    pos_top_left: 'Сверху слева',
+    pos_top_center: 'Сверху',
+    pos_top_right: 'Сверху справа',
+    pos_middle_left: 'Слева',
+    pos_middle_center: 'Центр',
+    pos_middle_right: 'Справа',
+    pos_bottom_left: 'Снизу слева',
+    pos_bottom_center: 'Снизу',
+    pos_bottom_right: 'Снизу справа',
+
+    loading_gen: [
+        "Создаем пиксели...",
+        "Рисуем шедевр...",
+        "Советуемся с цифровыми музами...",
+        "Воплощаем воображение в реальность...",
+        "Рисуем алгоритмами...",
+        "Запускаем творческие схемы...",
+    ],
+    loading_edit: [
+        "Применяем магические правки...",
+        "Полируем детали...",
+        "Работаем над финальными штрихами...",
+        "Улучшаем ваше видение...",
+        "Момент творческой трансформации...",
+        "Придаем изображению новый вид...",
+    ]
+  },
+  uz: {
+    app_name: "ImagineArt",
+    tab_generate: "Yaratish",
+    tab_edit: "Tahrirlash",
+    footer_text: "Shahzod Roziqulov tomonidan ishlab chiqilgan",
+    
+    gen_label_vision: "G'oyangizni tasvirlab bering",
+    gen_placeholder: "masalan, Marsda kulib turgan kosmonavtning kinematografik surati, 8k",
+    gen_label_ratio: "Tomonlar nisbati",
+    gen_btn_generate: "Yaratish",
+    gen_error_prompt: "Iltimos, tasvirni izohlang.",
+    gen_waiting: "Yaratilgan rasm shu yerda paydo bo'ladi.",
+    gen_download_alt: "Rasmni yuklab olish",
+
+    edit_drop_title: "Rasmni yuklang",
+    edit_drop_subtitle: "yoki shu yerga tashlang",
+    edit_drop_hint: "PNG, JPG, GIF 10MB gacha",
+    edit_change_img: "Rasmni o'zgartirish",
+    edit_quick_title: "Tezkor tahrirlar",
+    edit_custom_label: "Maxsus so'rov",
+    edit_custom_placeholder: "masalan, Retro filtr qo'shish",
+    edit_btn_edit: "Tahrirlash",
+    edit_error_upload: "Iltimos, rasm yuklang va tahrirlash so'rovini kiriting.",
+    edit_waiting: "Tahrirlangan rasm shu yerda paydo bo'ladi.",
+    edit_label_original: "Original",
+    edit_label_edited: "Tahrirlangan",
+    
+    tool_text_overlay: "Matn qo'shish",
+    tool_text_label: "Matn",
+    tool_text_placeholder: "Matningizni yozing",
+    tool_font_label: "Shrift",
+    tool_color_label: "Rang",
+    tool_size_label: "O'lcham",
+    tool_pos_label: "Joylashuv",
+    tool_btn_add_text: "Matnni qo'shish",
+    tool_btn_save: "Saqlash",
+
+    qa_remove_bg: "Fonni o'chirish",
+    qa_upscale: "Sifatni oshirish",
+    qa_color: "Rang..",
+
+    pos_top_left: 'Yuqori chap',
+    pos_top_center: 'Yuqori',
+    pos_top_right: 'Yuqori o\'ng',
+    pos_middle_left: 'Chap',
+    pos_middle_center: 'Markaz',
+    pos_middle_right: 'O\'ng',
+    pos_bottom_left: 'Pastki chap',
+    pos_bottom_center: 'Pastki',
+    pos_bottom_right: 'Pastki o\'ng',
+
+    loading_gen: [
+        "Piksellar yaratilmoqda...",
+        "Asaringiz chizilmoqda...",
+        "Raqamli ilhom parilari bilan maslahatlashmoqda...",
+        "Tasavvur haqiqatga aylanmoqda...",
+        "Algoritmlar bilan bo'yalmoqda...",
+        "Ijodiy sxemalar ishga tushmoqda...",
+    ],
+    loading_edit: [
+        "Sehrli o'zgarishlar qo'llanilmoqda...",
+        "Detallar silliqlanmoqda...",
+        "Yakuniy chizgilar ustida ishlanmoqda...",
+        "Tasviringiz kuchaytirilmoqda...",
+        "Ijodiy o'zgarish lahzasi...",
+        "Rasmga yangi ko'rinish berilmoqda...",
+    ]
+  }
+};
